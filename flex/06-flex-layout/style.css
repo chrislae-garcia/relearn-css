@@ -18,6 +18,20 @@ button {
   background: #eee;
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
