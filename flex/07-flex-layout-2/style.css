@@ -58,10 +58,15 @@ a {
 
 .card-items {
   display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 24px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 20px;
+  flex-basis: 300px;
 }
